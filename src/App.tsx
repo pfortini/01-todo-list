@@ -8,12 +8,11 @@ import { useState } from 'react';
 
 function App() {
   const [tasks, setTasks] = useState([
-    { id: 6,  text: 'asdf', completed: false },
-    { id: 1,  text: 'Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.', completed: false },
-    { id: 2,  text: 'Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.', completed: false },
-    { id: 3,  text: 'Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.', completed: false },
-    { id: 4,  text: 'Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.', completed: true },
-    { id: 5,  text: 'Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.', completed: true }
+    { id: 1, text: 'Planejar escopo e definir objetivos do projeto.', completed: true },
+    { id: 2, text: 'Criar um cronograma detalhado com prazos e responsáveis.', completed: true },
+    { id: 3, text: 'Desenvolver e testar as principais funcionalidades.', completed: true },
+    { id: 4, text: 'Revisar e corrigir eventuais problemas identificados.', completed: false },
+    { id: 5, text: 'Finalizar documentação e realizar entrega oficial.', completed: false }
   ]);
 
   function _setTasks(tasks: Task[]) {
