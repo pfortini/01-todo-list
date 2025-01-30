@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 3.25rem;
+
+  gap: 8px;
+
+  margin-top: calc(0px - 1.625rem);
+}
+
+.input {
+  font-family: Inter;
+  line-height: 1.4;
+  font-weight: 400;
+  font-size: 1rem;
+  width: calc(46rem - 90px);
+  height: 100%;
+  border: 0;
+  border-radius: 8px;
+  background: var(--gray-500);
+  padding-left: 1rem;
+}
+
+.wrapper a {
+  text-decoration: none;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 8px;
+  border-radius: 8px;
+  height: 100%;
+  width: 90px;
+  transition: all 0.2s ease;
+}
+
+.wrapper a:hover {
+  background: var(--blue);
+}
